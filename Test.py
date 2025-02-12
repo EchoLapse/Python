@@ -8,9 +8,9 @@ def getLuminosity(im_file):
     stat = ImageStat.Stat(im)
     return stat.mean[0]
 
-os.chdir('..')
-os.chdir('Final renders')
-os.chdir('Test #6')
+print(os.getcwd())
+os.chdir("C:/Users\Ani Pulavarthi\Documents\Final renders")
+os.chdir('433 38dx 1m')
 
 luminosities = []
 
